@@ -13,7 +13,7 @@ int main(int argc, char **argv)
     std_msgs::String msg;
     while (ros::ok())
     {
-        msg.data = "please help me i can give you a fuck";
+        msg.data = "带我飞我陪你睡";
         pub.publish(msg);
         loop_rate.sleep();
     }

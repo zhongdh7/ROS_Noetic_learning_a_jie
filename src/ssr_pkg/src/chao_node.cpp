@@ -15,9 +15,9 @@ int main(int argc, char **argv)
     while (ros::ok())
     {
         // std::cout << "我要刷屏了" << std::endl;
-        msg.data = "mao chao to carry fly";
+        msg.data = "马超我带飞";
         pub.publish(msg);
-        loop_rate.sleep();
+        loop_rate.sleep(); // 这个地方到这里了之后程序会停住
     }
     return 0;
 }
