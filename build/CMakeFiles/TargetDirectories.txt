@@ -197,6 +197,14 @@
 /home/loser/catkin_ws/build/ros_tutorials/turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir
 /home/loser/catkin_ws/build/ros_tutorials/turtlesim/CMakeFiles/turtlesim_genlisp.dir
 /home/loser/catkin_ws/build/ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/install/strip.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/install/local.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/install.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/list_install_components.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/rebuild_cache.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/edit_cache.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/test.dir
+/home/loser/catkin_ws/build/vel_pkg/CMakeFiles/vel_node.dir
 /home/loser/catkin_ws/build/wpr_simulation/CMakeFiles/install.dir
 /home/loser/catkin_ws/build/wpr_simulation/CMakeFiles/test.dir
 /home/loser/catkin_ws/build/wpr_simulation/CMakeFiles/rebuild_cache.dir

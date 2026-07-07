@@ -152,6 +152,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/loser/catkin_ws/build/ros_tutorials/rospy_tutorials/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/ssr_pkg/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/ros_tutorials/turtlesim/cmake_install.cmake")
+  include("/home/loser/catkin_ws/build/vel_pkg/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/wpr_simulation/cmake_install.cmake")
 
 endif()

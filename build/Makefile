@@ -1845,6 +1845,19 @@ turtlesim_generate_messages_nodejs/fast:
 .PHONY : turtlesim_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named vel_node
+
+# Build rule for target.
+vel_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vel_node
+.PHONY : vel_node
+
+# fast build rule for target.
+vel_node/fast:
+	$(MAKE) -f vel_pkg/CMakeFiles/vel_node.dir/build.make vel_pkg/CMakeFiles/vel_node.dir/build
+.PHONY : vel_node/fast
+
+#=============================================================================
 # Target rules for targets named teleop_js_node
 
 # Build rule for target.
@@ -2779,6 +2792,7 @@ help:
 	@echo "... _turtlesim_generate_messages_check_deps_Pose"
 	@echo "... turtlesim_genlisp"
 	@echo "... turtlesim_generate_messages_nodejs"
+	@echo "... vel_node"
 	@echo "... teleop_js_node"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_eus"
