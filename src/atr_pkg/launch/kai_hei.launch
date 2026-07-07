@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- 最后的那个指令是说这个程序在专门的一个终端运行 -->
+     <!-- launch文件编写好了之后可以直接使用不用编译 -->
+    <node pkg="ssr_pkg" type="chao_node" name="chao_node" launch-prefix="gnome-terminal -e"/>
+    <node pkg="ssr_pkg" type="yao_node"  name="yao_node"/>
+    <!-- output screen属性可以把ROS_INFO输出在终端的窗口上面 -->
+    <node pkg="atr_pkg" type="ma_node"   name="ma_node" output="screen"/>
+</launch>
