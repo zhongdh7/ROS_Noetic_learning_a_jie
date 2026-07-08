@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/listener_unreliable"
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/listener_unreliable.pdb"
   "CMakeFiles/listener_unreliable.dir/listener_unreliable/listener_unreliable.cpp.o"
+  "CMakeFiles/listener_unreliable.dir/listener_unreliable/listener_unreliable.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

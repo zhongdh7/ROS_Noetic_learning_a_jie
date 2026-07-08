@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/talker"
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/talker.pdb"
   "CMakeFiles/talker.dir/talker/talker.cpp.o"
+  "CMakeFiles/talker.dir/talker/talker.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

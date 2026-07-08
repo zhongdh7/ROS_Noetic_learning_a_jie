@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/lidar_pkg/lidar_node"
   "/home/loser/catkin_ws/devel/lib/lidar_pkg/lidar_node.pdb"
   "CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o"
+  "CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

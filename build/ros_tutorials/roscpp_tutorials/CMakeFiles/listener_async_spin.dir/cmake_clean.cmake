@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/listener_async_spin"
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/listener_async_spin.pdb"
   "CMakeFiles/listener_async_spin.dir/listener_async_spin/listener_async_spin.cpp.o"
+  "CMakeFiles/listener_async_spin.dir/listener_async_spin/listener_async_spin.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

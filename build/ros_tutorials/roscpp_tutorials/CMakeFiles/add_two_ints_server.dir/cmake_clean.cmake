@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/add_two_ints_server"
   "/home/loser/catkin_ws/devel/lib/roscpp_tutorials/add_two_ints_server.pdb"
   "CMakeFiles/add_two_ints_server.dir/add_two_ints_server/add_two_ints_server.cpp.o"
+  "CMakeFiles/add_two_ints_server.dir/add_two_ints_server/add_two_ints_server.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

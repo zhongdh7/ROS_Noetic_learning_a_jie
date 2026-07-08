@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/ssr_pkg/chao_node"
   "/home/loser/catkin_ws/devel/lib/ssr_pkg/chao_node.pdb"
   "CMakeFiles/chao_node.dir/src/chao_node.cpp.o"
+  "CMakeFiles/chao_node.dir/src/chao_node.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

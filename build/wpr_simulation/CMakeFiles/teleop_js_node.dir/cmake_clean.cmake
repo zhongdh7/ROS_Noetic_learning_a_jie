@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/teleop_js_node"
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/teleop_js_node.pdb"
   "CMakeFiles/teleop_js_node.dir/src/teleop_js_node.cpp.o"
+  "CMakeFiles/teleop_js_node.dir/src/teleop_js_node.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

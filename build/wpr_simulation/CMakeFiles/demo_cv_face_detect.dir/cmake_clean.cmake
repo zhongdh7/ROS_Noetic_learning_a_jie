@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/demo_cv_face_detect"
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/demo_cv_face_detect.pdb"
   "CMakeFiles/demo_cv_face_detect.dir/src/demo_cv_face_detect.cpp.o"
+  "CMakeFiles/demo_cv_face_detect.dir/src/demo_cv_face_detect.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

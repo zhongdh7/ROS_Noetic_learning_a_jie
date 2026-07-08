@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/wpr1_sim"
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/wpr1_sim.pdb"
   "CMakeFiles/wpr1_sim.dir/src/wpr1_sim.cpp.o"
+  "CMakeFiles/wpr1_sim.dir/src/wpr1_sim.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

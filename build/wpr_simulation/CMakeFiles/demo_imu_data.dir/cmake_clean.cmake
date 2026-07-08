@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/demo_imu_data"
   "/home/loser/catkin_ws/devel/lib/wpr_simulation/demo_imu_data.pdb"
   "CMakeFiles/demo_imu_data.dir/src/demo_imu_data.cpp.o"
+  "CMakeFiles/demo_imu_data.dir/src/demo_imu_data.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
