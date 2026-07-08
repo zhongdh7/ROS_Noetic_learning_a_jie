@@ -152,6 +152,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/loser/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/ros_tutorials/ros_tutorials/cmake_install.cmake")
+  include("/home/loser/catkin_ws/build/map_pkg/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/qq_msgs/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/atr_pkg/cmake_install.cmake")
   include("/home/loser/catkin_ws/build/ros_tutorials/roscpp_tutorials/cmake_install.cmake")
