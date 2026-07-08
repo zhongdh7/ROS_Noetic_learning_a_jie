@@ -1,11 +1,14 @@
 #include <ros/ros.h>
 #include <iostream>
 #include <std_msgs/String.h>
+#include "qq_msgs/Carry.h"
 
 // 回调函数对接受的消息进行处理
-void chao_callback(std_msgs::String msg)
+void chao_callback(const qq_msgs::Carry msg)
 {
     // std::cout << msg.data << std::endl;
+    ROS_INFO("段位：%s",msg.grade.c_str());
+    ROS_INFO("%ld",msg.star);
     ROS_INFO("%s", msg.data.c_str()); // 这个用于输出日志这个必须用C语言的格式化输出来输出
 }
 

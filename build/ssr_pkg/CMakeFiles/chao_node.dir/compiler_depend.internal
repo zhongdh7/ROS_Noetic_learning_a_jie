@@ -3,6 +3,7 @@
 
 ssr_pkg/CMakeFiles/chao_node.dir/src/chao_node.cpp.o
  /home/loser/catkin_ws/src/ssr_pkg/src/chao_node.cpp
+ /home/loser/catkin_ws/devel/include/qq_msgs/Carry.h
  /opt/ros/noetic/include/ros/advertise_options.h
  /opt/ros/noetic/include/ros/advertise_service_options.h
  /opt/ros/noetic/include/ros/assert.h

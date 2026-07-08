@@ -2,9 +2,13 @@
 #coding=utf-8
 import rospy
 from std_msgs.msg import String
+from qq_msgs.msg import Carry
 
-def chao_callback(msg: String):
-    rospy.loginfo(msg.data)
+
+def chao_callback(msg: Carry):
+    rospy.loginfo("段位：%s", msg.grade)
+    rospy.logwarn("星星数：%ld", msg.star)
+    rospy.loginfo("数据：%s", msg.data)
 
 def yao_callback(msg: String):
     rospy.logwarn(msg.data)
@@ -13,7 +17,7 @@ def yao_callback(msg: String):
 if __name__=="__main__":
     rospy.init_node("ma_node")
 
-    sub=rospy.Subscriber("lets_go_to_play",String,chao_callback,queue_size=10)
+    sub=rospy.Subscriber("lets_go_to_play",Carry,chao_callback,queue_size=10)
     sub2=rospy.Subscriber("help_me_get_more_score",String,yao_callback,queue_size=10)
 
     rospy.spin()#这个保持节点在运行状态
