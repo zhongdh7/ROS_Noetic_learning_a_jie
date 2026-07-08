@@ -191,6 +191,13 @@
 /home/loser/catkin_ws/build/ros_tutorials/rospy_tutorials/CMakeFiles/install.dir
 /home/loser/catkin_ws/build/ros_tutorials/rospy_tutorials/CMakeFiles/install/local.dir
 /home/loser/catkin_ws/build/ros_tutorials/rospy_tutorials/CMakeFiles/install/strip.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/test.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/edit_cache.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/rebuild_cache.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/list_install_components.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/install.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/install/local.dir
+/home/loser/catkin_ws/build/slam_pkg/CMakeFiles/install/strip.dir
 /home/loser/catkin_ws/build/ssr_pkg/CMakeFiles/chao_node.dir
 /home/loser/catkin_ws/build/ssr_pkg/CMakeFiles/yao_node.dir
 /home/loser/catkin_ws/build/ssr_pkg/CMakeFiles/test.dir

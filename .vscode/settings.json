@@ -66,5 +66,6 @@
     "/home/loser/catkin_ws/devel/lib/python3/dist-packages",
     "/opt/ros/noetic/lib/python3/dist-packages"
   ],
-  "cmake.sourceDirectory": "/home/loser/catkin_ws/src/ros_tutorials/roscpp_tutorials/anonymous_listener"
+  "cmake.sourceDirectory": "/home/loser/catkin_ws/src/ros_tutorials/roscpp_tutorials/anonymous_listener",
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true
 }

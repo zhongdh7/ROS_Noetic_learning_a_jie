@@ -70,6 +70,7 @@ all: qq_msgs/all
 all: atr_pkg/all
 all: ros_tutorials/roscpp_tutorials/all
 all: ros_tutorials/rospy_tutorials/all
+all: slam_pkg/all
 all: ssr_pkg/all
 all: imu_pkg/all
 all: lidar_pkg/all
@@ -86,6 +87,7 @@ preinstall: qq_msgs/preinstall
 preinstall: atr_pkg/preinstall
 preinstall: ros_tutorials/roscpp_tutorials/preinstall
 preinstall: ros_tutorials/rospy_tutorials/preinstall
+preinstall: slam_pkg/preinstall
 preinstall: ssr_pkg/preinstall
 preinstall: imu_pkg/preinstall
 preinstall: lidar_pkg/preinstall
@@ -107,6 +109,7 @@ clean: qq_msgs/clean
 clean: atr_pkg/clean
 clean: ros_tutorials/roscpp_tutorials/clean
 clean: ros_tutorials/rospy_tutorials/clean
+clean: slam_pkg/clean
 clean: ssr_pkg/clean
 clean: imu_pkg/clean
 clean: lidar_pkg/clean
@@ -461,6 +464,21 @@ ros_tutorials/turtlesim/clean: ros_tutorials/turtlesim/CMakeFiles/turtle_teleop_
 ros_tutorials/turtlesim/clean: ros_tutorials/turtlesim/CMakeFiles/draw_square.dir/clean
 ros_tutorials/turtlesim/clean: ros_tutorials/turtlesim/CMakeFiles/mimic.dir/clean
 .PHONY : ros_tutorials/turtlesim/clean
+
+#=============================================================================
+# Directory level rules for directory slam_pkg
+
+# Recursive "all" directory target.
+slam_pkg/all:
+.PHONY : slam_pkg/all
+
+# Recursive "preinstall" directory target.
+slam_pkg/preinstall:
+.PHONY : slam_pkg/preinstall
+
+# Recursive "clean" directory target.
+slam_pkg/clean:
+.PHONY : slam_pkg/clean
 
 #=============================================================================
 # Directory level rules for directory ssr_pkg
