@@ -172,76 +172,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-imu_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : imu_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: imu_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f imu_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make imu_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-imu_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : imu_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: imu_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f imu_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make imu_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-imu_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : imu_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: imu_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f imu_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make imu_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-imu_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : imu_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: imu_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f imu_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make imu_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-imu_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : imu_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: imu_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f imu_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make imu_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 imu_pkg/CMakeFiles/imu_node.dir/rule:
 	cd /home/loser/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_pkg/CMakeFiles/imu_node.dir/rule
 .PHONY : imu_pkg/CMakeFiles/imu_node.dir/rule
@@ -292,11 +222,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... imu_node"
 	@echo "... src/imu_node.o"
 	@echo "... src/imu_node.i"

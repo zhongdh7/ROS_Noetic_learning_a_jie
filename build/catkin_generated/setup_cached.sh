@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PATH='/opt/ros/noetic/bin:/home/loser/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin:/home/loser/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/loser/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/cmake-3.30.5-linux-x86_64/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/loser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'
 export PWD='/home/loser/catkin_ws/build'
